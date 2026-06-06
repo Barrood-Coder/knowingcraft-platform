@@ -1,5 +1,11 @@
 # KnowingCraft – AI-Powered Mathematics Learning Platform
 
+Live Demo:
+https://www.knowingcraft.com
+
+LinkedIn:
+https://www.linkedin.com/in/barry-lo-82aa5692
+
 A full-stack educational platform designed to help students identify learning weaknesses and receive personalized mathematics practice.
 
 Built with Python, Flask, SQLAlchemy, and Google Gemini AI, the platform combines educational expertise with AI-assisted learning to create a more effective learning experience.
