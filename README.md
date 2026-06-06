@@ -1,4 +1,4 @@
-# AI-Powered Adaptive Learning Platform
+# KnowingCraft – AI-Powered Mathematics Learning Platform
 
 A full-stack educational platform designed to help students identify learning weaknesses and receive personalized mathematics practice.
 
