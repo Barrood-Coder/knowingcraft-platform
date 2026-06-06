@@ -1,16 +1,52 @@
-# AI-Powered Adaptive Learning Platform (SaaS Backend)
+# AI-Powered Adaptive Learning Platform
 
-A full-stack, enterprise-grade educational SaaS platform built with **Flask**, **SQLAlchemy**, and integrated with **Google Gemini Pro API**. The system features an AI-driven adaptive learning engine that diagnoses student mathematical weaknesses and dynamically generates customized practice workloads.
+A full-stack educational platform designed to help students identify learning weaknesses and receive personalized mathematics practice.
 
-## 🚀 Key Architectural Features
-- **Generative AI Integration**: Seamlessly integrated with **Gemini LLM** via a scalable configurations wrapper to automatically construct tailored mathematics problem sets with structured json schemas (answers & structural explanations).
-- **Hardened Web Security Middleware**: Implemented dynamic security headers enforcing `HSTS (Strict-Transport-Security)`, `X-Frame-Options (DENY)`, and `X-XSS-Protection` alongside comprehensive exception fallback handling for user session security.
-- **Adaptive Weakness Tracking (Data Modeling)**：Engineered relational database tracking (`StudentWeakness`, `AISession`, `PracticeResult`) to dynamically compute student accuracy matrices, generating a real-time behavioral diagnostics dashboard.
-- **Robust Session Lifecycle Management**: Formulated zero-trust route decorators (`@student_login_required`) with active state verification to prevent session pollution and unauthorized data leakage.
+Built with Python, Flask, SQLAlchemy, and Google Gemini AI, the platform combines educational expertise with AI-assisted learning to create a more effective learning experience.
 
-## 🛠️ Tech Stack & Architecture
-- **Backend Framework**: Flask (Python)
-- **Database ORM**: Flask-SQLAlchemy (PostgreSQL / MySQL / SQLite compatible)
-- **AI Engine**: Google Gemini API (Generative AI Wrapper)
-- **Security**: Custom Security Header Middleware, CSRF Exceptions for API Endpoints
-- **Data Structuring**: In-memory JSON Parsing (`json.loads`) for high-speed dynamic state management
+This project is actively used in real teaching environments and includes:
+
+* Student & Parent Account Systems
+* Mathematics Question Bank
+* AI-Generated Practice Questions
+* AI-Assisted Explanations
+* Learning Progress Tracking
+* Weakness Analysis Dashboard
+* Personalized Practice Recommendations
+
+## Project Motivation
+
+After more than 15 years of teaching mathematics, I observed that students often struggle with different weaknesses, but traditional worksheets treat everyone the same.
+
+To address this problem, I designed and developed an adaptive learning platform that analyzes student performance and generates targeted practice based on individual learning needs.
+
+## Technology Stack
+
+* Python
+* Flask
+* SQLAlchemy
+* SQLite / MySQL
+* Google Gemini API
+* HTML / CSS / Bootstrap
+
+## Key Technical Features
+
+### AI-Powered Question Generation
+
+Integrated Google Gemini API to dynamically generate mathematics practice questions and structured explanations based on student weaknesses.
+
+### Adaptive Learning Engine
+
+Tracks student performance and learning history to identify weak topics and recommend personalized practice workloads.
+
+### Learning Analytics Dashboard
+
+Provides real-time insights into student progress, accuracy rates, and topic mastery.
+
+### Secure Authentication System
+
+Implemented role-based access control, session management, and security middleware to protect user data and application integrity.
+
+### Full-Stack SaaS Architecture
+
+Designed database models, backend APIs, business logic, and user interfaces for students and parents.
