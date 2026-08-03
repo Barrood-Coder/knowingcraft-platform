@@ -11,6 +11,8 @@ The platform is currently used in real teaching environments and continues to ev
 
 ---
 
+（Student Dashboard）
+
 ![Student Dashboard](student_dashboard.jpg)
 
 ---
