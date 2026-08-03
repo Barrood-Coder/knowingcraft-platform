@@ -1,30 +1,46 @@
-# KnowingCraft – AI-Powered Mathematics Learning Platform
+# KnowingCraft – AI-Assisted Mathematics Learning Platform (MVP)
 
-Live Demo:
+**Live Demo:**
 https://www.knowingcraft.com
 
-LinkedIn:
-https://www.linkedin.com/in/barry-lo-82aa5692
+An AI-assisted mathematics learning platform that helps students practice more effectively through interactive quizzes, AI-powered tutoring, and personalized learning tools.
 
-A full-stack educational platform designed to help students identify learning weaknesses and receive personalized mathematics practice.
+KnowingCraft is a personal product that I designed and developed from the ground up, covering product planning, backend architecture, database design, AI integration, and full-stack implementation.
 
-Built with Python, Flask, SQLAlchemy, and Google Gemini AI, the platform combines educational expertise with AI-assisted learning to create a more effective learning experience.
+The platform is currently used in real teaching environments and continues to evolve through iterative development.
 
-This project is actively used in real teaching environments and includes:
+---
 
-* Student & Parent Account Systems
-* Mathematics Question Bank
-* AI-Generated Practice Questions
-* AI-Assisted Explanations
-* Learning Progress Tracking
-* Weakness Analysis Dashboard
-* Personalized Practice Recommendations
+## Why I Built KnowingCraft
 
-## Project Motivation
+After more than 15 years of teaching mathematics, I noticed that many students struggled for different reasons, yet most learning materials treated every student the same.
 
-After more than 15 years of teaching mathematics, I observed that students often struggle with different weaknesses, but traditional worksheets treat everyone the same.
+KnowingCraft was created to explore how AI can support more personalized learning by combining educational experience with practical software engineering.
 
-To address this problem, I designed and developed an adaptive learning platform that analyzes student performance and generates targeted practice based on individual learning needs.
+Rather than building a demonstration project, my goal was to build a working product that could be continuously improved based on real user feedback.
+
+---
+
+## Current Features (MVP)
+
+* Student account system
+* Mathematics question bank
+* Randomized practice by grade and topic
+* AI-assisted tutoring and explanations
+* Personal vocabulary collections (Chinese & English)
+* Learning dashboard
+* Progress tracking
+
+---
+
+## In Development
+
+* AI-powered weakness analysis
+* Personalized practice recommendations
+* Parent portal
+* Enhanced learning analytics
+
+---
 
 ## Technology Stack
 
@@ -33,26 +49,38 @@ To address this problem, I designed and developed an adaptive learning platform 
 * SQLAlchemy
 * SQLite / MySQL
 * Google Gemini API
-* HTML / CSS / Bootstrap
+* HTML
+* CSS
+* Bootstrap
 
-## Key Technical Features
+---
 
-### AI-Powered Question Generation
+## Technical Highlights
 
-Integrated Google Gemini API to dynamically generate mathematics practice questions and structured explanations based on student weaknesses.
+### AI Integration
 
-### Adaptive Learning Engine
+Integrated Google Gemini to provide AI-assisted tutoring and learning support within the platform.
 
-Tracks student performance and learning history to identify weak topics and recommend personalized practice workloads.
+### Full-Stack Development
 
-### Learning Analytics Dashboard
+Designed and implemented the complete application, including backend architecture, database models, business logic, authentication, and user interface.
 
-Provides real-time insights into student progress, accuracy rates, and topic mastery.
+### Database Design
 
-### Secure Authentication System
+Designed relational database structures for users, question banks, learning records, and AI interactions.
 
-Implemented role-based access control, session management, and security middleware to protect user data and application integrity.
+### Product Development
 
-### Full-Stack SaaS Architecture
+Managed the project from concept to deployment, continuously improving features based on practical teaching experience and user feedback.
 
-Designed database models, backend APIs, business logic, and user interfaces for students and parents.
+---
+
+## Project Status
+
+KnowingCraft is an actively developed MVP. New features are continuously added as the platform evolves toward a production-ready AI learning SaaS.
+
+---
+
+## Core Technologies
+
+Python • Flask • SQLAlchemy • Google Gemini API • SQLite • HTML • CSS • Bootstrap
