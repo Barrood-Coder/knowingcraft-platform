@@ -46,6 +46,30 @@ Rather than building a demonstration project, my goal was to build a working pro
 * Parent portal
 * Enhanced learning analytics
 
+## System Architecture
+
+```mermaid
+  flowchart TD
+  
+      A[Student] --> B[Flask Application]
+  
+      B --> C[User Authentication]
+      B --> D[Question Bank]
+      B --> E[Learning Records]
+  
+      B --> F[Gemini API]
+  
+      C --> G[(Database)]
+      D --> G
+      E --> G
+  
+      F --> H[AI Learning Assistant]
+  
+      G --> I[Student Dashboard]
+      H --> I
+
+```
+
 ---
 
 ## Technology Stack
