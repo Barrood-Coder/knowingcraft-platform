@@ -11,7 +11,7 @@ The platform is currently used in real teaching environments and continues to ev
 
 ---
 
-![Uploading student_dashboard.jpg…]()
+![Student Dashboard](student_dashboard.jpg)
 
 ---
 
