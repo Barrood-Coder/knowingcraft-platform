@@ -11,6 +11,10 @@ The platform is currently used in real teaching environments and continues to ev
 
 ---
 
+![Uploading student_dashboard.jpg…]()
+
+---
+
 ## Why I Built KnowingCraft
 
 After more than 15 years of teaching mathematics, I noticed that many students struggled for different reasons, yet most learning materials treated every student the same.
