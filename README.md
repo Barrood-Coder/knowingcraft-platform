@@ -1,5 +1,7 @@
 # KnowingCraft – AI-Assisted Mathematics Learning Platform (MVP)
 
+This is a curated public showcase of a larger, actively maintained private codebase. Student data and production configuration have been excluded for privacy.
+
 **Live Demo:**
 https://www.knowingcraft.com
 
